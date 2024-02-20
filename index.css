@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+img{
+    loading:lazy;
+}
+
 #mainbox{
     width:100%;
 }
