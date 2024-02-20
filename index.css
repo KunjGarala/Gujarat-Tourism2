@@ -52,8 +52,16 @@ img{
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    background-image:url(https://www.gujarattourism.com/content/dam/gujrattourism/images/madhavpur/common-banner.jpg);
     background-size:100% 100%;
+}
+
+#bannerbox img{
+    width:100%;
+    object-fit: cover;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 #bannerbox h1{
