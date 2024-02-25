@@ -1,6 +1,11 @@
 let left=document.querySelector("#left")
 let right=document.querySelector("#right")
 let slider=document.querySelector("#slider")
+let allimages=document.querySelectorAll("img")
+
+allimages.forEach((image)=>{
+    image.loading="lazy"
+})
 
 let count=1
 
